@@ -2,11 +2,7 @@
   "compilerOptions": {
     "target": "es2019",
     "module": "es2020",
-    "lib": [
-      "es2020",
-      "DOM",
-      "DOM.Iterable"
-    ],
+    "lib": ["es2020", "DOM", "DOM.Iterable"],
     "declaration": true,
     "declarationMap": true,
     "sourceMap": false,
@@ -29,19 +25,12 @@
       {
         "name": "ts-lit-plugin",
         "strict": true,
-        "globalTags": [
-          "ion-icon"
-        ],
-        "globalAttributes": [
-          "name"
-        ]
+        "globalTags": ["ion-icon"],
+        "globalAttributes": ["name"]
       }
     ]
   },
-  "include": [
-    "src/*.ts",
-    "typings/*.d.ts"
-  ],
+  "include": ["src/*.ts", "typings/*.d.ts", "./declaration.d.ts"],
   "exclude": [
     "node_modules/@types/storybook__addon-backgrounds/index.d.ts",
     "node_modules/@types/storybook__addon-knobs/index.d.ts",
